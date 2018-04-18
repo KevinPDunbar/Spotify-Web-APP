@@ -1,0 +1,203 @@
+.App {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* client/src/App.css */
+div, button {
+  margin: 10px;
+}
+
+.body {
+
+}
+
+
+.currentUser {
+  position: fixed;
+  left: 0;
+  top: 40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 100px;
+  margin: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.currentUserText  {
+  float: left;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+.profilePicture {
+  float: left;
+  border: 1 px solid black;
+  border-radius: 100px;
+  height: 100%;
+}
+
+.login {
+  float: right;
+  color: white;
+  font-size: 15px;
+}
+
+.playbackBar {
+  position: fixed;
+  left: 0;
+  bottom: 40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 100px;
+  margin: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.playbackBar img {
+  float: left;
+  border: 1px solid black;
+  border-radius: 100px;
+  width: 100px;
+  height: auto;
+}
+
+.trackPlaying {
+  float: left;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.playbackButtons {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-left: 50%;
+}
+
+.playbackButtons span {
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
+
+.playProgress {
+  width: 70%;
+  color: white;
+  margin-top: 50px;
+}
+
+.timePlayed {
+  float: left;
+  margin-top: 45px;
+  margin-left: 40px;
+}
+
+.duration {
+  float: right;
+  margin-top: 45px;
+  margin-right: 40px;
+}
+
+.saveTrack {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.mainBody {
+  z-index: 0;
+  background-color: lightgrey;
+  padding-top: 20px;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.mainBody btn {
+  margin: 0 !important;
+}
+
+.artistDisplay {
+  position: fixed;
+  z-index: 0;
+  background-color:rgba(0, 0, 0, 0.911);
+  width: 130%;
+  margin-left: 0px;
+  padding: 0 !important;
+  margin-bottom: 79px;
+}
+
+.artistDisplay div{
+ margin: 0 !important;
+}
+
+.artistDisplay h1 {
+   margin: 0;
+   text-align: center;
+   color: white;
+}
+
+.artistDisplay p {
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+.artistDisplay img {
+  height: 450px;
+  margin-left: 0;
+}
+
+.artistSongs {
+  padding-top: 100px;
+  position: fixed;
+  z-index: 0;
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.534);
+  padding-left: 0;
+  float: right;
+  width: 100%;
+}
+
+.trackPlayButton {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
